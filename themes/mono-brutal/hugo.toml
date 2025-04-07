@@ -3,19 +3,34 @@ languageCode = 'en-US'
 title = 'Printed Camera'
 
 [[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
+name = 'Cameras'
+pageRef = '/cameras'
+weight = 20
+
+[[menus.main]]
+name = 'Backs'
+pageRef = '/backs'
+weight = 20
+
+[[menus.main]]
+name = 'Bodies'
+pageRef = '/bodies'
+weight = 20
+
+[[menus.main]]
+name = 'Lenses'
+pageRef = '/lenses'
+weight = 20
+
+[[menus.main]]
+name = 'Shutters'
+pageRef = '/Shutters'
+weight = 20
 
 [[menus.main]]
 name = 'Posts'
 pageRef = '/posts'
 weight = 20
-
-[[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
-weight = 30
 
 [module]
   [module.hugoVersion]

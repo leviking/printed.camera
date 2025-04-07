@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Components on Printed.Camera</title>
+    <link>http://localhost:1313/components/</link>
+    <description>Recent content in Components on Printed.Camera</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Apr 2025 08:30:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/components/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Camera Body</title>
+      <link>http://localhost:1313/components/body/</link>
+      <pubDate>Mon, 07 Apr 2025 08:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/components/body/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Film Back</title>
+      <link>http://localhost:1313/components/film-back/</link>
+      <pubDate>Mon, 07 Apr 2025 08:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/components/film-back/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lens</title>
+      <link>http://localhost:1313/components/camera-len/</link>
+      <pubDate>Mon, 07 Apr 2025 08:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/components/camera-len/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shutter</title>
+      <link>http://localhost:1313/components/shutter/</link>
+      <pubDate>Mon, 07 Apr 2025 08:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/components/shutter/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

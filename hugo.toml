@@ -1,4 +1,4 @@
 baseURL = 'https://printed.camera/'
 languageCode = 'en-us'
-title = 'Printed Camera'
+title = 'Printed.Camera'
 theme = 'mono-brutal'
