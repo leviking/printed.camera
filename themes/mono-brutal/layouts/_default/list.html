@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section>
+    <h1>{{ .Title }}</h1>
+    
+    {{ .Content }}
+    
+    <div class="grid">
+        {{ range .Pages }}
+        <article class="card">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Date.Format "January 2, 2006" }}</p>
+            <div class="summary">
+                {{ .Summary }}
+            </div>
+            <a href="{{ .Permalink }}" class="button">Read More</a>
+        </article>
+        {{ end }}
+    </div>
+    
+    {{ template "_internal/pagination.html" . }}
+</section>
+{{ end }}

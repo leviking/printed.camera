@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+    
+    <!-- Optional: Include a Chicago-like font -->
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/chicago" />
+    
+    {{ block "head" . }}{{ end }}
+</head>
+<body>
+    <div class="container">
+        {{ partial "header.html" . }}
+        {{ partial "nav.html" . }}
+        
+        <main>
+            {{ block "main" . }}{{ end }}
+        </main>
+        
+        {{ partial "footer.html" . }}
+    </div>
+</body>
+</html>

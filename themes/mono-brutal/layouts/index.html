@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <section class="intro">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </section>
+    
+    <div class="grid">
+        {{ range first 6 (where .Site.RegularPages "Type" "posts") }}
+        <article class="card">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Date.Format "January 2, 2006" }}</p>
+            <div class="summary">
+                {{ .Summary }}
+            </div>
+            <a href="{{ .Permalink }}" class="button">Read More</a>
+        </article>
+        {{ end }}
+    </div>
+{{ end }}
