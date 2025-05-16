@@ -1,7 +1,7 @@
 :root {
   --black: #000000;
   --white: #FFFFFF;
-  --font-family: "Chicago", "Monaco", monospace;
+  --font-family: monospace;
   --border-width: 3px;
   --spacing-unit: 16px;
 }
@@ -45,6 +45,14 @@ h2 {
 
 p {
   margin-bottom: var(--spacing-unit);
+}
+
+section ul {
+  margin-left: 1rem;
+}
+
+section ol {
+  margin-left: 1rem;
 }
 
 /* Brutalist Container Elements */

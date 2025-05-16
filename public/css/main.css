@@ -47,6 +47,14 @@ p {
   margin-bottom: var(--spacing-unit);
 }
 
+section ul {
+  margin-left: 1.5rem;
+}
+
+section ol {
+  margin-left: 1.5rem;
+}
+
 /* Brutalist Container Elements */
 .container, article, section, .card {
   border: var(--border-width) solid var(--black);
